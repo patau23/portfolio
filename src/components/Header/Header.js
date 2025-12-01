@@ -1,13 +1,11 @@
 import Link from "next/link";
-import React from "react";
 import {
-  AiFillFacebook,
   AiFillGithub,
-  AiFillInstagram,
-  AiFillLinkedin,
+  AiFillLinkedin
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
+import { GithubUrl, LinkedInUrl } from "../../constants/constants";
 import {
   Container,
   Div1,
@@ -16,7 +14,6 @@ import {
   NavLink,
   SocialIcons,
 } from "./HeaderStyles";
-import { FacebookUrl, GithubUrl, LinkedInUrl } from "../../constants/constants";
 
 const Header = () => (
   <Container>
@@ -51,9 +48,9 @@ const Header = () => (
       <SocialIcons href={LinkedInUrl} target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href={FacebookUrl} target="_blank">
+      {/* <SocialIcons href={FacebookUrl} target="_blank">
         <AiFillFacebook size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

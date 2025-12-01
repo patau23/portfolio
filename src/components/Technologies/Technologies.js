@@ -20,7 +20,7 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world. From
-      Back-end To Blockchain
+      Back-end To Front-end and Deploy.
     </SectionText>
     <List>
       <ListItem>
@@ -59,19 +59,7 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Blockchain</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Solana Blockchain <br />
-            using Rust
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+
     </List>
     <SectionDivider colorAlt />
   </Section>

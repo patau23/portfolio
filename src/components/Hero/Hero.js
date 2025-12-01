@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { LeftSection } from "./HeroStyles";
-import { FiverUrl, ResumeUrl, UpworkUrl } from "../../constants/constants";
+import { TelegramUrl, ResumeUrl, HHUrl } from "../../constants/constants";
 import LinkButton from "../../styles/GlobalComponents/LinkButton";
 
 const Hero = (props) => (
@@ -15,12 +15,11 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Hello! <br />
-          I'm Tanveer Khan
+          I'm Amirkhanov Akezhan
         </SectionTitle>
         <SectionText>
-          A Full Stack Backend & Solana Blockchain Developer specializing in
-          scalable server-side applications with Node.js & Rust. Proficient in
-          Next.js and React.js for seamless web development.
+          A Full Stack Frontend & Backend Developer specializing in
+          scalable server-side applications with Node.js & React.js.
         </SectionText>
         <div
           style={{
@@ -30,11 +29,11 @@ const Hero = (props) => (
             margin: "0 0 80px",
           }}
         >
-          <LinkButton alt="upwork" href={UpworkUrl} target="_blank">
-            Upwork
+          <LinkButton alt="headhunter" href={HHUrl} target="_blank">
+            HeadHunter
           </LinkButton>
-          <LinkButton alt="fiverr" href={FiverUrl} target="_blank">
-            Fiverr
+          <LinkButton alt="telegram" href={TelegramUrl} target="_blank">
+            Telegram
           </LinkButton>
           <LinkButton alt="resume" href={ResumeUrl} target="_blank">
             Resume

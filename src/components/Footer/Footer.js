@@ -1,6 +1,10 @@
-import React from "react";
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
+import {
+  GithubUrl,
+  LinkedInUrl,
+  PersonalEmail
+} from "../../constants/constants";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -13,25 +17,18 @@ import {
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
-import {
-  FacebookUrl,
-  GithubUrl,
-  LinkedInUrl,
-  MobileNumber,
-  PersonalEmail,
-} from "../../constants/constants";
 
 const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href={`tel:${MobileNumber}`}>{MobileNumber}</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href={`mailto:${PersonalEmail}`}>{PersonalEmail}</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Telegram</LinkTitle>
+          <LinkItem href={`https://t.me/i_came_for_memes`}>@i_came_for_memes</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -45,9 +42,9 @@ const Footer = () => {
           <SocialIcons href={LinkedInUrl} target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href={FacebookUrl} target="_blank">
+          {/* <SocialIcons href={FacebookUrl} target="_blank">
             <AiFillFacebook size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

@@ -24,6 +24,13 @@ const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
+    {/* <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <SectionTitle >Landings</SectionTitle>
+    <br /> */}
     <GridContainer>
       {projects.map((p, i) => {
         return (
