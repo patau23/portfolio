@@ -83,7 +83,7 @@ export const projects = [
     title: "KTZE Commerce Platform",
     description:
       "Many shippers still manage rates, orders and contracts through emails and calls, leaving them without a simple personal cabinet to control every stage of their rail logistics online",
-    image: "/images/9.png",
+    image: "images/9.png",
     tags: ["React", "Ant Design", "Micro frontend"],
     source: "https://my-commerce.ktze.kz/",
     visit: null,
